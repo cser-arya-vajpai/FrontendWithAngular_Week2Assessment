@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ID Card</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .card {
+        width: 300px;
+        border: 3px solid gray;
+        padding: 10px;
+        background-color: #dcdcdc;
+        box-shadow: 2px 2px 5px gray;
+      }
+
+      .header {
+        border: 2px solid gray;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+
+      .photo {
+        border: 2px solid gray;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .circle {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .circle span {
+        color: white;
+        font-size: 50px;
+      }
+
+      .details {
+        border: 2px solid gray;
+        padding: 10px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="header">ABC SOLUTIONS PVT LTD</div>
+
+      <div class="photo">
+        <div class="circle">
+          <span>👤</span>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="row">
+          <div>NAME :</div>
+          <div>SMITH</div>
+        </div>
+
+        <div class="row">
+          <div>DESIGNATION :</div>
+          <div>CLERK</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
