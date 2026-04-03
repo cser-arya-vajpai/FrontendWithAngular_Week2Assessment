@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .static {
+      position: static;
+      height: 500px;
+      width: 500px;
+      background-color: hotpink;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    .fixed {
+      position: fixed;
+      height: 500px;
+      width: 500px;
+      background-color: hotpink;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    .sticky {
+      left: 80px;
+
+      position: sticky;
+      height: 500px;
+      width: 500px;
+      background-color: hotpink;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    .relative {
+      position: relative;
+      height: 500px;
+      width: 500px;
+      background-color: hotpink;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    .absolute {
+      position: absolute;
+      height: 500px;
+      width: 500px;
+      background-color: hotpink;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    .navbar {
+      height: 80px;
+      width: 100%vw;
+      top: 10px;
+      position: sticky;
+      background-color: black;
+      color: wheat;
+    }
+  </style>
+  <body>
+    <!--STATIC, FIXED, STICKY, RELATIVE and ABSOLUTE-->
+    <div class="navbar">Navbar</div>
+    <div class="static">
+      Static
+      <p style="text-align: center; font-size: large; font-weight: 400">
+        Static is the default position of an element. It does not accept
+        properties like top, left, right, or bottom.
+      </p>
+    </div>
+    <div class="fixed">
+      Fixed
+      <p style="text-align: center; font-size: large; font-weight: 400">
+        Fixed positioning removes the element from the flow and positions it
+        relative to the viewport. It remains in place even when the page
+        scrolls.
+      </p>
+    </div>
+    <div class="sticky">
+      Sticky
+      <p style="text-align: center; font-size: large; font-weight: 400">
+        Sticky positioning switches between relative and fixed based on the
+        scroll position.
+      </p>
+    </div>
+    <div class="relative">
+      Relative
+      <p style="text-align: center; font-size: large; font-weight: 400">
+        Relative positioning places an element relative to its normal position.
+        You can move it using top, left, right, or bottom.
+      </p>
+    </div>
+    <div class="absolute">
+      Absolute
+      <p style="text-align: center; font-size: large; font-weight: 400">
+        Absolute positioning removes the element from the document flow and
+        places it relative to the nearest ancestor with a positioning context
+        (relative, absolute, or fixed).
+      </p>
+    </div>
+  </body>
+</html>

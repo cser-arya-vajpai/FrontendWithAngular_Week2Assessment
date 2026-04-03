@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="Stylesheet" href="CSS_basics.css" />
+  </head>
+  <body>
+    <h2>Hi</h2>
+    <div
+      class="c1"
+      style="
+        background-color: pink;
+        height: 100px;
+        width: 500px;
+        font-size: 20px;
+      "
+    >
+      <p style="color: coral">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam,
+        amet culpa corporis repellat quidem commodi. Nam libero corrupti odio,
+        explicabo debitis quos non ipsum officia omnis commodi. Quod, explicabo.
+      </p>
+    </div>
+    <style>
+      div p1 {
+        color: yellowgreen;
+      }
+
+      p1 + p2 {
+        color: pink;
+      }
+
+      p1 ~ p2 {
+        color: black;
+      }
+    </style>
+    <div>
+      <p1
+        >Descendant Selectors: Targets an element inside another, such as
+        paragraphs inside div .</p1
+      >
+
+      <p2>
+        Child Selector (>): They only affects the direct child elements of a
+        parent.
+      </p2>
+      <p3>General siblings</p3>
+    </div>
+    <div style="background-color: antiquewhite">
+      <h2>UNITS</h2>
+      <p>
+        Two Types: <br />1. Absolute Units <br />
+        2. Relative Units
+      </p>
+
+      <h3>Absolute Units</h3>
+      <p>
+        px, cm, mm, in etc <br />
+        The size remains fixed.
+      </p>
+      <h3>Relative Units</h3>
+      <p>
+        em, rem(depends on root element), %, vh(Viewport height), vw(Viewport
+        width) etc
+      </p>
+    </div>
+    <div style="background-color: burlywood">
+      <h2>COLORS</h2>
+      <p>
+        1.Named <br />
+        2.RGB (0-255) <br />
+        3.RGBA (A stands for Alpha, range is 0-1. Defines transparency)<br />
+        4.HSL and HSLA<br />
+        5.Hex Values: RGB/RRGGBB
+      </p>
+    </div>
+    <h1
+      style="
+        margin: 100px 5px 5px 90px;
+        border-style: double;
+        padding: 70px 5px 100px 20px;
+      "
+    >
+      abc
+    </h1>
+    <h1>ok</h1>
+  </body>
+</html>

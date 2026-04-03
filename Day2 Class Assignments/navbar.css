@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%vw;
+    border: 5px;
+    border-style: solid;
+    background-color: grey;
+    
+}
+
+  .div1, .div2, .div3 {
+    display: flex;
+    align-items: center;
+  }
+    .div1 div {
+    margin-right: 20px;
+    
+  }
+
+  #image {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  #search {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #logout {
+    padding: 6px 12px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+   
+  }
+
+  #image{
+    background-image: url(image.jpg);
+    display: inline;
+    background-size: cover;
+
+  }
